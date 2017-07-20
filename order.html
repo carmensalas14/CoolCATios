@@ -3,14 +3,20 @@
 <head>
  		<link rel="stylesheet" href="style.css">
         <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
-        <script src="myscripts.js"></script>
+        <script src="myscript.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Catamaran" rel="stylesheet">
+
+
 </head>
-<body>
+<body id="order-body">
+    
+    
     <!--TITLE-->
     <div class="container">
         <div class=”row”>
               <div class=”col-md-12”>
-        	 <h1>Cool CATios, inc.</h1>
+            <img id ="logo" src="https://mail.google.com/mail/u/0/?ui=2&ik=2902addec1&view=fimg&th=15d5363f1a39be37&attid=0.1.1&disp=emb&attbid=ANGjdJ-kSVXHq41cZpl5-yI21FoySSuBOseY3VaHiNmdFgev1hTCbMNSFBO4NfpSTxDy_7NVGPzquaa8md-bWJVysTbSwBIxvRolQn0khtav-S-GnKeIUyro-wE1_qc&sz=w1244-h742&ats=1500342674792&rm=15d5363f1a39be37&zw&atsh=1">    
+        	  <h1 id="logo-title">Cool CATios, Inc.</h1>
         	
         	  </div>
         </div>
@@ -20,21 +26,21 @@
           <nav class="navbar navbar-default ">
              <div>
                   <ul class="nav nav-tabs">
-                     <!--HOME-->
+                    <!--HOME-->
                     <li><a href="index.html">Home</a></li>
                     <!--ORDER-->
                     <li><a href="order.html">Order</a></li>
                     <!--DIY-->
                     <li><a href="diy.html">DIY Projects</a></li>
-                    <!--MEDIA-->
-                    <li><a href="media.html">Media</a></li>
+
                     <!--BLOGS-->
                     <li class="dropdown">
                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" 
                           aria-haspopup="true" aria-expanded="false">Blogs <span class="caret"></span></a>
                     <ul class="dropdown-menu">
+                    <li><a href="sylvie.html">Sylvie's Blog</a></li>
                     <li><a href="test.html">Testimonial Blog</a></li>
-                    <li><a href="sylvie.html">Sylvie's Blogs</a></li>
+                    
                   </ul>
                   <!--WE SUPPORT-->
                     <li class="dropdown">
@@ -48,80 +54,141 @@
                     <li><a href="contact.html">Contact</a></li>
               </div>
           </nav>
-          
+        
+     
     <!--CAT CATIOS-->
     <div class="container">
         <div class=”row”>
             <div class=”col-md-12”>
-        	    <h1>Cat Catios</h1>
+        	    <h1 id="catio-title">Catios</h1>
         	
             </div>
         </div>
     </div>
 
     <!--MODELS-->
-    <div class="container-fluid">
+    <div id="order-container" class="container-fluid">
+        
           <!--FIRST MODEL-->
         <div class="row">
+            <!--LEFT SECTION-->
             <div class="col-xs-6">
                 <div class="modeldiv">
-                    <img class="model" src="https://catiospaces.com/wp-content/uploads/2017/01/catio-window-box-cat-enclosure-diy-catio-plan-medium-catiospaces.com_-3.jpg">
+                    <img class="model" src="http://habitathaven.com/images/large/cat-enclosure-kits/room-with-view_LRG.gif">
                 </div>
                 
                 
             </div>
-            
-            <div class="col-xs-6">
+            <!--RIGHT SECTION-->
+            <div class="model-descrption" class="col-xs-6">
                       
-                <h1>description</h1>
-                <h1>Wood Colors</h1>
+                <h1 class="model-name">Window of Wonder</h1>
+                    <ul>
+                        <li >1 three sided enclosure ( 48"W x 46"L x 96"H) with a 6" lip</li>
+                        <li>7 adjustable shelves</li>
+                        <li>6 planks of cedar for the floor</li>
+                        <li>1 door ( 24"W x 60"H )</li>
+                        <li>Pliers, fasteners and instructions.</li>
+                    </ul>
+                    
+                    
+                <h1 class="wood-colors">Wood Colors</h1>
+                
                 <div class="row">
-                    <img class="wood" src="http://canadel.com/media/wysiwyg/Color/Wood/01-HONEY-WASHED.jpg">
-                    <img class="wood" src="http://canadel.com/media/wysiwyg/Color/Wood/03-OAK-WASHED.jpg"> 
-                    <img class="wood" src="http://canadel.com/media/wysiwyg/Color/Wood/19-COGNAC-WASHED.jpg"> 
+                        <img class="wood" src="http://canadel.com/media/wysiwyg/Color/Wood/01-HONEY-WASHED.jpg">
+                        <img class="wood" src="http://canadel.com/media/wysiwyg/Color/Wood/03-OAK-WASHED.jpg"> 
+                        <img class="wood" src="http://canadel.com/media/wysiwyg/Color/Wood/19-COGNAC-WASHED.jpg"> 
+                <button class="order-button" class="btn" type="button" action="orderform.html">
+                Order
+                </button>
+                    
+                    </div>
+                
+                
                 </div>
             </div>
         </div>
+        
+        
         
         <!--SECOND MODEL-->
         <div class="row">
+            <!--LEFT SECTION-->
             <div class="col-xs-6">
                 <div class="modeldiv">
-                    <img class="model" src="https://catiospaces.com/wp-content/uploads/2017/02/haven-3x6-catio-diy-catio-plan-cat-enclosure.catiospaces.jpg">
+                    <img class="model" src="http://habitathaven.com/images/medium/cat-enclosure-kits/cat-walk_MED.gif">
                 </div>
                 
             </div>
-            
-            <div class="col-xs-6">
-                <h1>description</h1>
-                <h1>Wood Colors</h1>
+            <!--RIGHT SECTION-->
+            <div class="model-descrption" class="col-xs-6">
+                <h1 class="model-name">Cool Catwalk</h1>
+                    <ul>
+                        <li>1 tower (12"D x 22"L x 96"H) with a 6" lip</li>
+                        <li>1 tunnel (12"W x 96"L x 15"H)</li>
+                        <li>1 enclosure (46"D x 48"L x 96"H)</li>
+                        <li>7 adjustable shelves</li>
+                        <li>6 planks of cedar for the floor</li>
+                        <li>1 door (24"W x 60"H)</li>
+                        <li>pliers, fasteners, and instructions</li>
+                    </ul>
+                <h1 class="wood-colors">Wood Colors</h1>
                 <div class="row">
                     <img class="wood" src="http://canadel.com/media/wysiwyg/Color/Wood/01-HONEY-WASHED.jpg">
                     <img class="wood" src="http://canadel.com/media/wysiwyg/Color/Wood/03-OAK-WASHED.jpg"> 
                     <img class="wood" src="http://canadel.com/media/wysiwyg/Color/Wood/19-COGNAC-WASHED.jpg"> 
+               <button class="order-button" class="btn" type="button" action="orderform.html">
+                Order
+                </button>
+               
                 </div>
+                
+               
+                
             </div>
         </div>
+    
+
         
         <!--THIRD MODEL-->
-        <div class="row">
+         <div class="row">
+            <!--LEFT SECTION-->
             <div class="col-xs-6">
                 <div class="modeldiv">
-                    <img class="model" src="http://www.rpharchitecture.com/site/wp-content/uploads/2016/11/Catio-Color-P1.jpg">
+                    <img class="model" src="http://habitathaven.com/images/medium/cat-enclosure-kits/the_great_escape_MED.gif">
                 </div>
                 
             </div>
-            
-            <div class="col-xs-6">
-                      
-               <h1>description</h1>
-                <h1>Wood Colors</h1>
-                <div class="row">
+            <!--RIGHT SECTION-->
+             <div class="model-descrption col-xs-6">
+                <h1 class="model-name">Purrfect Playground</h1>
+                   <ul id="third-model-ul">
+                       <li>1 three sided enclosure (36"D x 48"L x 48"H) with a 6" lip</li>
+                       <li>1 enclosure (46"D x 48"L x 96"H)</li>
+                       <li>1 tunnel (12"W x 96"L x 15"H)</li>
+                       <li>1 small tunnel (12"W x 64"L x 15"H)</li>
+                       <li>1 4-step stair (12"W x 32"L x 46"H)</li>
+                       <li>1 access end cap (12"W x 12"L x 14"H)</li>
+                       <li>9 adjustable shelves</li>
+                       <li>12 planks of cedar for the floor</li>
+                       <li>1 door (24"W x 60"H)</li>
+                       <li>1 door (24"W x 36"H)</li>
+                       <li>Pliers, fasteners and instructions.</li>
+                   </ul>
+                <div id="wood-row">
+                <h1 class="wood-colors">Wood Colors</h1>
+
                     <img class="wood" src="http://canadel.com/media/wysiwyg/Color/Wood/01-HONEY-WASHED.jpg">
                     <img class="wood" src="http://canadel.com/media/wysiwyg/Color/Wood/03-OAK-WASHED.jpg"> 
                     <img class="wood" src="http://canadel.com/media/wysiwyg/Color/Wood/19-COGNAC-WASHED.jpg"> 
+                <button class="order-button" class="btn" type="button"  action="orderform.html">
+                Order
+                </button>
+                
                 </div>
-                   
+                
+                
+                
             </div>
         </div>
         
@@ -131,11 +198,6 @@
         
     </div>
        
-    
-
-
-
-
 
 
 
