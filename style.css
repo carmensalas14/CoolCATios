@@ -1,12 +1,12 @@
 
 /*HOMEPAGE*/
 #myCarousel .carousel-inner > .item {
-    height:600px;
+    height:700px;
 }
 
 #logo-pic{
-  height:130px;
-  margin-left:70px;
+  height:140px;
+  margin-left:60px;
 }
 
 #logo-div{
@@ -16,11 +16,11 @@
 #logo-title {
   text-align:center;
   font-family:Catamaran;
-  font-size:40px;
+  font-size:45px;
 }
 
 .nav {
-  background-color:rgba(204, 116, 36, 0.9);
+  background-color:rgba(204, 116, 36, 0.6);
   min-height:60px;
   font-family:Catamaran;
   font-size:22px;
@@ -67,7 +67,7 @@ text-align:center;
 
 .model-name{
   font-size:40px;
-  color: #d2691e;
+  color: #B56522;
 }
 
 .model-descrption{
@@ -84,7 +84,7 @@ text-align:center;
 #catio-title {
   font-family: Catamaran;
   font-size:50px;
-  color: #d2691e;
+  color: #B56522;
   text-align:center;
 }
 
@@ -97,7 +97,7 @@ text-align:center;
 }
 
 .wood-colors {
-  color: #d2691e;
+  color: #B56522;
 }
 
 
@@ -166,7 +166,7 @@ background-image: url("http://www.iconsdb.com/icons/preview/icon-sets/vintage-pa
 }
 
 .entrydiv{
-  height:200px;
+  height:240px;
   border:dotted;
   background:rgba(205, 175, 149, 0.9) !important;
 }
@@ -189,6 +189,38 @@ background-image: url("http://www.iconsdb.com/icons/preview/icon-sets/vintage-pa
  background-color:#ff7f50;
  font-size:20px;
 }
+
+.entry-title{
+  font-family:crafty girls;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.blog-date{
+  font-family:crafty girls;
+  font-size:15px;
+  font-weight: bold;
+  
+}
+
+.blog-time{
+  font-family:crafty girls;
+  font-size:1-px;
+  font-weight: bold;
+  
+}
+
+.blog-img{
+  height:200px;
+  width:300px;
+}
+.toy-div{
+  height:450px;
+  border:dotted;
+  background:rgba(205, 175, 149, 0.9) !important;
+}
+
+
 
 /*SIGN UP*/
 .signup {
@@ -269,8 +301,9 @@ background-image: url("http://www.iconsdb.com/icons/preview/icon-sets/vintage-pa
 /*DOWNLOAD PAGE*/
 #download-title {
   text-align: center;
-  color: #d2691e;
+  color: #B56522;
   font-size:85px;
+  font-family: Catamaran;
 }
 
 .cat-img {
@@ -286,3 +319,31 @@ background-image: url("http://www.iconsdb.com/icons/preview/icon-sets/vintage-pa
   color: #d2691e;
   text-align:center;
 }
+
+#orderform-body{
+  font-family: Catamaran;
+}
+
+
+/*BOTTOM BANNER*/
+#orange-cat{
+    float:right;
+    height:200px;
+}
+
+#bottom-banner{
+ background-color:#ECD57B;
+ height:250px;
+
+}
+
+.banner-subtitle{
+    font-size:22px;
+    font-family: Catamaran;
+}
+
+.banner-writing{
+    font-size:15px;
+    font-family: Catamaran;
+}
+
