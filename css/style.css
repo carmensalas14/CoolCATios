@@ -1,0 +1,356 @@
+
+/*HOMEPAGE*/
+#myCarousel .carousel-inner > .item {
+    height:700px;
+}
+
+#logo-pic{
+  height:140px;
+  margin-left:60px;
+}
+
+#logo-div{
+  margin:auto;
+}
+
+#logo-title {
+  text-align:center;
+  font-family:Catamaran;
+  font-size:45px;
+}
+
+.nav {
+  background-color:rgba(204, 116, 36, 0.6);
+  min-height:60px;
+  font-family:Catamaran;
+  font-size:22px;
+}
+
+#first-slide{
+  width:5000px;
+  height:5000;
+}
+
+
+
+.about-subtitle {
+  text-align:center;
+  font-family:Catamaran;
+  color: #d2691e;
+  font-size:40px;
+}
+
+.nav .nav-tabs > li {
+font-size:20px;
+text-align:center;
+}
+
+.nav .nav-tabs > li > a {
+  color: black;
+}
+
+.about-writing{
+  font-family:Catamaran;
+  font-size:20px;
+}
+
+
+
+/*ORDER PAGE*/
+.modeldiv{
+    width:450px;
+    height:500px;
+}
+
+.model{
+    width:100%;
+    margin-left:80px !important;
+}
+
+.wood{
+    width:80px;
+    height:120pxs;
+}
+
+.model-name{
+  font-size:40px;
+  color: #B56522;
+}
+
+.model-descrption{
+  font-size:20px;
+}
+#third-model-ul {
+ font-size:15px;
+}
+
+#order-body{
+  font-family: Catamaran;
+}
+
+#catio-title {
+  font-family: Catamaran;
+  font-size:50px;
+  color: #B56522;
+  text-align:center;
+}
+
+.order-button{
+  height:50px;
+  width:80px;
+  background-color:#D2AF69;
+  font-family: Catamaran;
+  font-size: 25px;
+}
+
+.wood-colors {
+  color: #B56522;
+}
+
+
+/*DIY PAGE*/
+.more-button{
+  font-size:25px;
+  height:50px;
+  width:160px;
+  background-color:#D2AF69;
+  font-family: Catamaran;
+}
+
+.download-button{
+  background-color:#D2AF69;
+  font-family: Catamaran;
+  font-size:18px;
+  height:30px;
+  width:150px;
+}
+
+.diy-disclaimer{
+  font-size:20px;
+  font-family: Catamaran;
+}
+.diy-description{
+  font-size:18px;
+  font-family: Catamaran;
+}
+
+.diy-subheading{
+ color:#C8570D;
+ font-family: Catamaran;
+  
+}
+
+.project-div{
+margin:auto;
+}
+
+.project{
+  height:300px;
+  
+}
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+
+/*SYLVIE'S BLOG*/
+#sylvie-title{
+text-align:center; 
+font-size:80px;
+font-family: crafty Girls;
+
+}
+
+#sylviepic{
+  height:480px;
+}
+
+#sylvie-background{
+background-image: url("http://www.iconsdb.com/icons/preview/icon-sets/vintage-paper/fish-2-xxl.png")
+}
+
+.entrydiv{
+  height:240px;
+  border:dotted;
+  background:rgba(205, 175, 149, 0.9) !important;
+}
+
+.sylvie-writing{
+  font-size:20px !important;
+  font-family: Catamaran;
+  margin: 3%;
+  font-weight: bold;
+  color:black;
+  
+}
+
+#sylvie-greeting{
+  font-family:crafty girls;
+}
+
+#sylvie-update-btn{
+ height:60px;
+ background-color:#ff7f50;
+ font-size:20px;
+}
+
+.entry-title{
+  font-family:crafty girls;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.blog-date{
+  font-family:crafty girls;
+  font-size:15px;
+  font-weight: bold;
+  
+}
+
+.blog-time{
+  font-family:crafty girls;
+  font-size:1-px;
+  font-weight: bold;
+  
+}
+
+.blog-img{
+  height:200px;
+  width:300px;
+}
+.toy-div{
+  height:450px;
+  border:dotted;
+  background:rgba(205, 175, 149, 0.9) !important;
+}
+
+
+
+/*SIGN UP*/
+.signup {
+  width:500px;
+  margin:auto;
+  margin-bottom: 25px;
+  font-family: Catamaran;
+  font-size:50px;
+  color: #d2691e;
+  text-align:center;
+}
+
+.signupinput {
+  width: 300px !important;
+  margin: auto;
+}
+#signupform {
+  text-align:center;
+}
+
+
+/*CATIMONIAL BLOG*/
+
+#catimonial-title {
+  text-align: center;
+  color: #d2691e;
+  font-size:50px;
+  font-family: Catamaran;
+}
+
+#catimonlials-div {
+  height:200px;
+  border:solid;
+}
+
+.img-circle {
+  width:150px!important;
+  height:150px !important;
+}
+
+.test-writing {
+  font-size:20px;
+  font-family: Catamaran;
+}
+
+.test-name {
+  font-size:30px;
+  font-family: Catamaran;
+  color: #d2691e
+}
+
+#comment-form {
+  text-align:center;
+}
+
+/*CONTACT PAGE*/
+#contact-title{
+  font-family: Catamaran;
+  text-align: center;
+  color: #d2691e;
+  font-size:50px;
+}
+
+.contact-subtitle{
+  font-family: Catamaran;
+  font-size:35px;
+   color: #d2691e;
+  text-align:center;
+  
+}
+
+.contact-writing{
+  font-family: Catamaran !important;
+  font-size:20px !important;
+  text-align: center !important;
+}
+
+/*DOWNLOAD PAGE*/
+#download-title {
+  text-align: center;
+  color: #B56522;
+  font-size:85px;
+  font-family: Catamaran;
+}
+
+.cat-img {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+}
+
+/*ORDERFORM*/
+.order-form {
+  font-family: Catamaran;
+  font-size:50px;
+  color: #d2691e;
+  text-align:center;
+}
+
+#orderform-body{
+  font-family: Catamaran;
+}
+
+
+/*BOTTOM BANNER*/
+#orange-cat{
+    float:right;
+    height:200px;
+}
+
+#bottom-banner{
+ background-color:#ECD57B;
+ height:250px;
+
+}
+
+.banner-subtitle{
+    font-size:22px;
+    font-family: Catamaran;
+}
+
+.banner-writing{
+    font-size:15px;
+    font-family: Catamaran;
+}
+
